@@ -6,3 +6,20 @@
     margin: 0;
     padding: 0;
 }
+
+
+/* Tag HTML */
+
+
+/* Classes */
+.bg-color_white{
+    background-color: white;
+}
+
+/* Id */
+
+
+/* Combinations */
+#main-header h1{
+    display: inline-block;
+}
