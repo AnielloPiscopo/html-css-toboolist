@@ -16,9 +16,20 @@
     background-color: white;
 }
 
-/* Id */
-#logo-img{
+
+
+/* SPECIFIC CHANGES */
+
+/* Header Style */
+header:first-of-type{
+    height: 6rem;
 }
+
+#logo-img{
+    height: 4rem;
+}
+
 #logo-text{
     display: inline-block;
+    font-size: 4rem;
 }
