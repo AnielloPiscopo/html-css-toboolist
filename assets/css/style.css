@@ -133,19 +133,25 @@ main header .btns-container{
 
 .date-tasks::before{
     content: '\25BE';
+    font-size: 1.5rem;
+    vertical-align: middle;
 }
 
-.icon{
+.to-do-icon{
     border-radius: 10px;
     padding: 0 3px;
 }
 
-.icon.font-color_green{
+.to-do-icon.font-color_green{
     border: 1px solid green;
 }
 
-.icon.font-color_red{
+.to-do-icon.font-color_red{
     border: 1px solid red;
+}
+
+.task-description{
+    padding-left: 5px;
 }
 
 .task-category{
