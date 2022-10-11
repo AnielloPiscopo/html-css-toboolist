@@ -116,7 +116,7 @@ main header .btns-container{
 
 /* --- Tasks --- */
 #tasks{
-    margin: 0 0 4rem 4rem;
+    padding: 0 0 4rem 4rem;
 }
 
 .tasks-group ul li{
@@ -150,7 +150,8 @@ main header .btns-container{
 
 .task-category{
     color: white;
-    padding: 7px;
-    border-radius: 30%;
+    padding: 7px 12px;
+    border-radius: 20px;
     font-size: 10px;
+    margin-left: 10px;
 }
