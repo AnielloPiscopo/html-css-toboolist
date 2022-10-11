@@ -22,11 +22,13 @@
 
 /* Header Style */
 header:first-of-type{
-    height: 6rem;
+    height: 6.1rem;
+    padding: 1rem 0 1rem 2rem;
 }
 
 #logo-img{
-    height: 4rem;
+    height: 4.5rem;
+    vertical-align: bottom;
 }
 
 #logo-text{
