@@ -9,11 +9,17 @@
 
 
 /* Tag HTML */
-
+body{
+    font-family: sans-serif;
+}
 
 /* Classes */
 .bg-color_white{
     background-color: white;
+}
+
+.bg-color_grey{
+    background-color: #f6f8f9;
 }
 
 
@@ -23,15 +29,15 @@
 /* Header Style */
 header:first-of-type{
     height: 6.1rem;
-    padding: 1rem 0 1rem 2rem;
+    padding: 0.9rem 0 1rem 1.8rem;
 }
 
 #logo-img{
-    height: 4.5rem;
-    vertical-align: bottom;
+    height: 4.6rem;
+    vertical-align: top;
 }
 
 #logo-text{
     display: inline-block;
-    font-size: 4rem;
+    font-size: 3.3rem;
 }
