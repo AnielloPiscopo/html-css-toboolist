@@ -1,6 +1,6 @@
-/* GENERAL CHANGES */
+/** GENERAL CHANGES */
 
-/* Reset */
+/*! Reset */
 *{
     box-sizing: border-box;
     margin: 0;
@@ -8,7 +8,7 @@
 }
 
 
-/* Tag HTML */
+/*! Tag HTML */
 body{
     font-family: sans-serif;
 }
@@ -22,8 +22,12 @@ button{
     border-radius: 5px;
 }
 
+button:hover{
+    cursor: pointer;
+}
 
-/* Classes */
+
+/*! Classes */
 .bg-color_white{
     background-color: white;
 }
@@ -78,9 +82,9 @@ button{
 
 
 
-/* SPECIFIC CHANGES */
+/** SPECIFIC CHANGES */
 
-/* Header Style */
+/*! Header Style */
 header#main-header{
     height: 6.1rem;
     padding: 0.9rem 0 1rem 1.8rem;
@@ -88,20 +92,21 @@ header#main-header{
 
 #logo-img{
     height: 4.6rem;
-    vertical-align: top;
+    vertical-align: middle;
 }
 
 #logo-text{
     display: inline-block;
     font-size: 3.3rem;
+    vertical-align: middle;
 }
 
 
-/* Main Style */
+/*! Main Style */
 main{
     width: 70%;
     margin: 3.8rem auto;
-    border-radius: 1px;
+    border-radius: 0.5rem;
 }
 
 /* --- Header --- */
@@ -119,16 +124,17 @@ main header .btns-container{
     padding: 0 0 4rem 4rem;
 }
 
-.tasks-group ul li{
+.task{
     margin-top: 1.5rem;
 }
 
-.tasks-group ul li:first-of-type{
+.task:first-of-type{
     margin-top: 0.7rem;
 }
 
 .date-tasks{
     margin-top: 3rem;
+    cursor: pointer;
 }
 
 .date-tasks::before{
@@ -137,16 +143,16 @@ main header .btns-container{
     vertical-align: middle;
 }
 
-.to-do-icon{
+.circle-icon{
     border-radius: 10px;
     padding: 0 3px;
 }
 
-.to-do-icon.font-color_green{
+.circle-icon.font-color_green{
     border: 1px solid green;
 }
 
-.to-do-icon.font-color_red{
+.circle-icon.font-color_red{
     border: 1px solid red;
 }
 
